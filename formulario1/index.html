@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/formulario1/style.css">
+  <title>Formulário</title>
+</head>
+
+<body>
+  <div id="paralelo"></div>
+  <section>
+    <form action="#" method="POST">
+      <h1>Crie sua conta</h1>
+      <fieldset>
+
+        <div class="container">
+          <input type="text" required name="name" autofocus>
+          <label>Nome</label>
+        </div>
+
+        <div class="container">
+          <input type="text" required name="sobrenome" autofocus>
+          <label>Sobrenome</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <div class="container">
+          <input type="email" required name="email">
+          <label>E-mail</label>
+        </div>
+      </fieldset>
+      <fieldset>
+
+        <div class="container">
+          <input type="password" required name="password">
+          <label>Senha</label>
+        </div>
+
+        <div class="container">
+          <input type="password" required name="confirm">
+          <label>Confirmar Senha</label>
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+
+        <div id="check">
+          <input type="checkbox" required name="accept">
+          <label>Aceitar os termos de uso</label>
+        </div>
+        <button>Criar Conta</button>
+
+      </fieldset>
+      <a href="#">Ler Termos de Uso</a>
+    </form>
+    <img src="/formulario1/img/user.png" alt="user">
+  </section>
+</body>
+
+</html>
